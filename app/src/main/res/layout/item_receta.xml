@@ -17,6 +17,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -31,6 +32,7 @@
         android:text="Ingredientes de la receta"
         android:textSize="14sp"
         android:gravity="start"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tituloReceta"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -45,6 +47,7 @@
         android:text="Procedimiento de la receta"
         android:textSize="14sp"
         android:gravity="start"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ingredientesReceta"
         app:layout_constraintEnd_toEndOf="parent" />
